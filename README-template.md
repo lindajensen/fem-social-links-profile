@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Netlify](ruby-social-links-profile.netlify.app)
-- 
+- GitHub Repository [Github](https://github.com/lindajensen/fem-social-links-profile.git)
 
 ## My process
 
