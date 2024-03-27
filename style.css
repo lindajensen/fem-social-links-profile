@@ -5,3 +5,71 @@
     --darkgrey: hsl(0, 0%, 12%);
     --offblack: hsl(0, 0%, 8%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    font-size: 0.875rem;
+}
+
+body {
+    background-color: var(--offblack);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: var(--darkgrey);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    width: 320px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+#primary-text {
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--grey);
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
